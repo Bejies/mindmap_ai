@@ -60,37 +60,12 @@ class AppRoutes {
   }
 }
 ```
+## 🚀 Features
+- Create and edit mind maps with an intuitive interface
+- Save and manage multiple projects
+- Responsive design for desktop and mobile
+- Powered by Flutter Web for fast performance
 
-## 🎨 Theming
-
-This project includes a comprehensive theming system with both light and dark themes:
-
-```dart
-// Access the current theme
-ThemeData theme = Theme.of(context);
-
-// Use theme colors
-Color primaryColor = theme.colorScheme.primary;
-```
-
-The theme configuration includes:
-- Color schemes for light and dark modes
-- Typography styles
-- Button themes
-- Input decoration themes
-- Card and dialog themes
-
-## 📱 Responsive Design
-
-The app is built with responsive design using the Sizer package:
-
-```dart
-// Example of responsive sizing
-Container(
-  width: 50.w, // 50% of screen width
-  height: 20.h, // 20% of screen height
-  child: Text('Responsive Container'),
-)
 ```
 ## 📦 Deployment
 
@@ -103,4 +78,6 @@ flutter build apk --release
 # For iOS
 flutter build ios --release
 ```
+Mindmap AI is a web application built with Flutter that helps you create, visualize, and manage mind maps easily.  
+This project is deployed on [Netlify](https://your-site-name.netlify.app) and updates automatically from GitHub.
 
